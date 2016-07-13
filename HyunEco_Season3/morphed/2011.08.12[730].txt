@@ -1,0 +1,1 @@
+[{"text":"미국의 신용등급 하락이 국내 수출산업에미치는 영향Executive SummaryExecutive Summary","morphAnal":[[["미국","NNP"],["의","JKG"]],[["신용등급","NNP"]],[["하락","NNG"],["이","JKS"]],[["국내","NNG"]],[["수출","NNG"],["산업","NNG"],["에","JKB"],["미치","VV"],["는","ETM"]],[["영향","NNG"],["Executive","SL"]],[["SummaryExecutive","SL"]],[["Summary","SL"]]]}]
