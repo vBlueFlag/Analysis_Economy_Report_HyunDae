@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>26acc802-da7c-4294-bdb6-221ec511701c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Analysis_Economy_Report_HyunDae.py</StartupFile>
+    <StartupFile>test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Analysis_Economy_Report_HyunDae.py" />
+    <Compile Include="test.py" />
     <Compile Include="HyundaeEconomy\0.collect_hri_urls.py" />
     <Compile Include="HyundaeEconomy\0.collect_hri_urls_pastDoc.py" />
     <Compile Include="HyundaeEconomy\1.ReadyToMorph.py" />
@@ -53,6 +53,57 @@
     <Compile Include="HyunEco_Season3\6.get_kpop_topic_words.py" />
     <Compile Include="HyunEco_Season3\7.draw_kpop_topic_word_mst.py" />
     <Compile Include="HyunEco_Season3\X5.draw_kpop_singer_mst.py" />
+    <Compile Include="lecture02\fortune_tell_1.py" />
+    <Compile Include="lecture02\mycat.py" />
+    <Compile Include="lecture02\pycat.py" />
+    <Compile Include="lecture02\pyhead.py" />
+    <Compile Include="lecture02\test_cmd_args.py" />
+    <Compile Include="lecture03\collect_nate_economy_news_urls.py" />
+    <Compile Include="lecture03\collect_nate_news_articles.py" />
+    <Compile Include="lecture03\collect_tweets_by_search.py" />
+    <Compile Include="lecture03\collect_tweets_by_streaming.py" />
+    <Compile Include="lecture03\crawlwer_nate_first.py" />
+    <Compile Include="lecture03\extract_nate_news_articles.py" />
+    <Compile Include="lecture03\firefox_naver.py" />
+    <Compile Include="lecture04\C.morph_anal_news.py" />
+    <Compile Include="lecture04\morph_anal_songs.py" />
+    <Compile Include="lecture04\post_proc.py" />
+    <Compile Include="lecture04\sentence_split.py" />
+    <Compile Include="lecture04\test_morph_anal.py" />
+    <Compile Include="lecture04\★morph_anal_output.py" />
+    <Compile Include="lecture05\calc_kl_div_news.py" />
+    <Compile Include="lecture05\count_wordforms.py" />
+    <Compile Include="lecture05\count_wordforms_with_counter.py" />
+    <Compile Include="lecture05\count_wordform_cooc.py" />
+    <Compile Include="lecture05\draw_word_cloud.py" />
+    <Compile Include="lecture05\draw_word_cloud_x.py" />
+    <Compile Include="lecture05\plot_morph_freqs.py" />
+    <Compile Include="lecture05\★count_morphs_news.py" />
+    <Compile Include="lecture06\cluster_kpop_flat.py" />
+    <Compile Include="lecture06\cluster_kpop_hier.py" />
+    <Compile Include="lecture06\combination_trainning.py" />
+    <Compile Include="lecture06\test_bow_model.py" />
+    <Compile Include="lecture06\test_eucl_dist_raw_freq.py" />
+    <Compile Include="lecture06\test_eucl_dist_rel_freq.py" />
+    <Compile Include="lecture06\test_eucl_dist_tfidf.py" />
+    <Compile Include="lecture06\test_eucl_dist_unit_vec.py" />
+    <Compile Include="lecture06\test_scikit_doc_term_mat.py" />
+    <Compile Include="lecture06\test_scikit_eucl_dist_raw_freq.py" />
+    <Compile Include="lecture07\classify_news_bin_nb.py" />
+    <Compile Include="lecture07\classify_news_bin_sgd.py" />
+    <Compile Include="lecture07\classify_news_grid.py" />
+    <Compile Include="lecture07\classify_news_mul_sgd.py" />
+    <Compile Include="lecture07\classify_news_mul_sgd_cm.py" />
+    <Compile Include="lecture07\test_news_classifier.py" />
+    <Compile Include="lecture07\train_news_classifier.py" />
+    <Compile Include="lecture08\build_kpop_word_cooc_mat.py" />
+    <Compile Include="lecture08\build_kpop_word_cooc_mat_scikit.py" />
+    <Compile Include="lecture08\classify_news_mul_sgd_cm.py" />
+    <Compile Include="lecture08\draw_kpop_singer_mst.py" />
+    <Compile Include="lecture08\draw_kpop_topic_word_mst.py" />
+    <Compile Include="lecture08\draw_kpop_word_cooc_mst.py" />
+    <Compile Include="lecture08\draw_kpop_word_cooc_net.py" />
+    <Compile Include="lecture08\get_kpop_topic_words.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HyundaeEconomy\" />
@@ -61,6 +112,13 @@
     <Folder Include="HyunEco_Season2\morphed\" />
     <Folder Include="HyunEco_Season3\" />
     <Folder Include="HyunEco_Season3\morphed\" />
+    <Folder Include="lecture02\" />
+    <Folder Include="lecture03\" />
+    <Folder Include="lecture04\" />
+    <Folder Include="lecture05\" />
+    <Folder Include="lecture06\" />
+    <Folder Include="lecture07\" />
+    <Folder Include="lecture08\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="HyundaeEconomy\replace_text.txt" />
@@ -6399,6 +6457,9 @@
     <Content Include="HyunEco_Season3\morphed\2016.06.24[1].txt" />
     <Content Include="HyunEco_Season3\morphed\2016.06.27[0].txt" />
     <Content Include="HyunEco_Season3\report_infomation.txt" />
+    <Content Include="lecture04\1.형태소분석.txt" />
+    <Content Include="lecture05\1.빈도순서로정렬.txt" />
+    <Content Include="lecture07\soc_pol_20k.ma.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
