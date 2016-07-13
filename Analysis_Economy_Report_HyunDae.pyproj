@@ -22,6 +22,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="MyCrwaling\1.collect_ebs_toeic_urls.py" />
+    <Compile Include="MyCrwaling\2.collect_ebs_toeic_articles.py" />
+    <Compile Include="MyCrwaling\3.extract_ebs_toeic.py" />
+    <Compile Include="MyCrwaling\euckr_Success.py" />
+    <Compile Include="MyCrwaling\file_down.py" />
+    <Compile Include="MyCrwaling\test.py" />
+    <Compile Include="Project_NovelAnalysis\1.ReadyToMorph.py" />
+    <Compile Include="Project_NovelAnalysis\2.morph_anal_output.py" />
+    <Compile Include="Project_NovelAnalysis\3.count_morphs.py" />
+    <Compile Include="Project_NovelAnalysis\3.count_morphs__oneFile.py" />
+    <Compile Include="Project_NovelAnalysis\4.draw_word_cloud.py" />
+    <Compile Include="Project_NovelAnalysis\4.draw_word_cloud_oneFile.py" />
     <Compile Include="test.py" />
     <Compile Include="HyundaeEconomy\0.collect_hri_urls.py" />
     <Compile Include="HyundaeEconomy\0.collect_hri_urls_pastDoc.py" />
@@ -104,6 +116,9 @@
     <Compile Include="lecture08\draw_kpop_word_cooc_mst.py" />
     <Compile Include="lecture08\draw_kpop_word_cooc_net.py" />
     <Compile Include="lecture08\get_kpop_topic_words.py" />
+    <Compile Include="yourCrawling\collect_nate_economy_news_urls.py" />
+    <Compile Include="yourCrawling\collect_nate_news_articles.py" />
+    <Compile Include="yourCrawling\test.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HyundaeEconomy\" />
@@ -119,6 +134,20 @@
     <Folder Include="lecture06\" />
     <Folder Include="lecture07\" />
     <Folder Include="lecture08\" />
+    <Folder Include="MyCrwaling\" />
+    <Folder Include="Project_NovelAnalysis\" />
+    <Folder Include="Project_NovelAnalysis\arirang\" />
+    <Folder Include="Project_NovelAnalysis\arirang\morphed\" />
+    <Folder Include="Project_NovelAnalysis\arirang\ranked\" />
+    <Folder Include="Project_NovelAnalysis\arirang\ready\" />
+    <Folder Include="Project_NovelAnalysis\arirang\result_wordcloud\" />
+    <Folder Include="Project_NovelAnalysis\arirang\txt\" />
+    <Folder Include="Project_NovelAnalysis\morphed\" />
+    <Folder Include="Project_NovelAnalysis\ranked\" />
+    <Folder Include="Project_NovelAnalysis\ready\" />
+    <Folder Include="Project_NovelAnalysis\result_wordcloud\" />
+    <Folder Include="Project_NovelAnalysis\txt\" />
+    <Folder Include="yourCrawling\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="HyundaeEconomy\replace_text.txt" />
@@ -6460,6 +6489,83 @@
     <Content Include="lecture04\1.형태소분석.txt" />
     <Content Include="lecture05\1.빈도순서로정렬.txt" />
     <Content Include="lecture07\soc_pol_20k.ma.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari01.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari02.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari03.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari04.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari05.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari06.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari07.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari08.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari09.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari10.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari11.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\morphed\Ari12.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\1arirang_12.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari01.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari02.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari03.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari04.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari05.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari06.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari07.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari08.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari09.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari10.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari11.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\Ari12.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ranked\arirang_12.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari01.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari02.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari03.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari04.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari05.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari06.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari07.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari08.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari09.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari10.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari11.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\ready\Ari12.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari01.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari02.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari03.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari04.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari05.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari06.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari07.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari08.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari09.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari10.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari11.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\Ari12.txt.png" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\arirang12.jpg" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\arirang6.jpg" />
+    <Content Include="Project_NovelAnalysis\arirang\result_wordcloud\arirang_12.png" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari01.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari02.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari03.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari04.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari05.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari06.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari07.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari08.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari09.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari10.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari11.txt" />
+    <Content Include="Project_NovelAnalysis\arirang\txt\Ari12.txt" />
+    <Content Include="Project_NovelAnalysis\arirang_01.txt" />
+    <Content Include="Project_NovelAnalysis\counted_arirang_01.txt" />
+    <Content Include="Project_NovelAnalysis\morphed\SKS1.TXT" />
+    <Content Include="Project_NovelAnalysis\morphed\Sks2.txt" />
+    <Content Include="Project_NovelAnalysis\ranked\arirang_12.txt" />
+    <Content Include="Project_NovelAnalysis\ranked_arirang_01.txt" />
+    <Content Include="Project_NovelAnalysis\ready\SKS1.TXT" />
+    <Content Include="Project_NovelAnalysis\ready\Sks2.txt" />
+    <Content Include="Project_NovelAnalysis\result_wordcloud\arirang_12.png" />
+    <Content Include="Project_NovelAnalysis\result_wordcloud\외딴방.jpg" />
+    <Content Include="Project_NovelAnalysis\txt\SKS1.TXT" />
+    <Content Include="Project_NovelAnalysis\txt\Sks2.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
