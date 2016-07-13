@@ -1,0 +1,1 @@
+{'knowledge': 12, 'pension': 105, 'unity': 85, 'vip': 443, 'issue': 401, 'chair': 377, 'korea': 686, 'all': 2109}

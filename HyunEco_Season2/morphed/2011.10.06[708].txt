@@ -1,0 +1,1 @@
+[{"text":"가계부채發 복합불황 가능성Executive Summary發","morphAnal":[[["가계부채","NNP"],["發","SH"]],[["복합불황","NNP"]],[["가능","XR"],["성","XSN"],["Executive","SL"]],[["Summary","SL"],["發","SH"]]]}]
