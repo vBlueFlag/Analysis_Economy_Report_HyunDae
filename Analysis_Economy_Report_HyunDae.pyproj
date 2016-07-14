@@ -22,6 +22,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="lecture09\calc_kl_divs.py" />
+    <Compile Include="lecture09\fix_pdf_dat.py" />
+    <Compile Include="lecture09\get_kpop_mood.py" />
+    <Compile Include="lecture09\morph_anal_reviews.py" />
+    <Compile Include="lecture09\morph_count_reviews.py" />
+    <Compile Include="lecture09\sent_anal_reviews.py" />
     <Compile Include="MyCrwaling\1.collect_ebs_toeic_urls.py" />
     <Compile Include="MyCrwaling\2.collect_ebs_toeic_articles.py" />
     <Compile Include="MyCrwaling\3.extract_ebs_toeic.py" />
@@ -116,9 +122,6 @@
     <Compile Include="lecture08\draw_kpop_word_cooc_mst.py" />
     <Compile Include="lecture08\draw_kpop_word_cooc_net.py" />
     <Compile Include="lecture08\get_kpop_topic_words.py" />
-    <Compile Include="yourCrawling\collect_nate_economy_news_urls.py" />
-    <Compile Include="yourCrawling\collect_nate_news_articles.py" />
-    <Compile Include="yourCrawling\test.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HyundaeEconomy\" />
@@ -134,6 +137,7 @@
     <Folder Include="lecture06\" />
     <Folder Include="lecture07\" />
     <Folder Include="lecture08\" />
+    <Folder Include="lecture09\" />
     <Folder Include="MyCrwaling\" />
     <Folder Include="Project_NovelAnalysis\" />
     <Folder Include="Project_NovelAnalysis\arirang\" />
@@ -147,7 +151,6 @@
     <Folder Include="Project_NovelAnalysis\ready\" />
     <Folder Include="Project_NovelAnalysis\result_wordcloud\" />
     <Folder Include="Project_NovelAnalysis\txt\" />
-    <Folder Include="yourCrawling\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="HyundaeEconomy\replace_text.txt" />
@@ -6489,6 +6492,7 @@
     <Content Include="lecture04\1.형태소분석.txt" />
     <Content Include="lecture05\1.빈도순서로정렬.txt" />
     <Content Include="lecture07\soc_pol_20k.ma.txt" />
+    <Content Include="lecture09\desktop.ini" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari01.txt" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari02.txt" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari03.txt" />
