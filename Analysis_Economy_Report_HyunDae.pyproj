@@ -139,6 +139,7 @@
     <Folder Include="lecture08\" />
     <Folder Include="lecture09\" />
     <Folder Include="MyCrwaling\" />
+    <Folder Include="lecture10\" />
     <Folder Include="Project_NovelAnalysis\" />
     <Folder Include="Project_NovelAnalysis\arirang\" />
     <Folder Include="Project_NovelAnalysis\arirang\morphed\" />
@@ -6492,6 +6493,9 @@
     <Content Include="lecture04\1.형태소분석.txt" />
     <Content Include="lecture05\1.빈도순서로정렬.txt" />
     <Content Include="lecture07\soc_pol_20k.ma.txt" />
+    <Content Include="lecture10\박은정-2015-한국어와nltk_gensim의만남.pdf" />
+    <Content Include="lecture10\박종희-et-2015-북한신년사텍스트분석.pdf" />
+    <Content Include="lecture10\최규민-2015-추천시스템이word2vec을만났을때.pdf" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari01.txt" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari02.txt" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari03.txt" />
