@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>26acc802-da7c-4294-bdb6-221ec511701c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test.py</StartupFile>
+    <StartupFile>HyunEco_Season3\2.build_kpop_word_cooc_mat_scikit.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -6492,7 +6492,6 @@
     <Content Include="lecture04\1.형태소분석.txt" />
     <Content Include="lecture05\1.빈도순서로정렬.txt" />
     <Content Include="lecture07\soc_pol_20k.ma.txt" />
-    <Content Include="lecture09\desktop.ini" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari01.txt" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari02.txt" />
     <Content Include="Project_NovelAnalysis\arirang\morphed\Ari03.txt" />

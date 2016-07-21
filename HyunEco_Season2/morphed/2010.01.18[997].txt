@@ -1,1 +1,0 @@
-[{"text":"한경-HRI대한민국 경제 행복 지수2010년 1월 8일○○○Hyundai  Institute","morphAnal":[[["한경","NNP"],["-","SS"],["HRI","SL"],["대한민국 경제","NNP"]],[["행복 지수","NNP"],["2010년 1월","NNP"]],[["8","SN"],["일","NR"],["○○","SO"],["○","SW"],["Hyundai","SL"]],[["Institute","SL"]]]}]

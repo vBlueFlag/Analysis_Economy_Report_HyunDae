@@ -1,15 +1,20 @@
-import os
+from collections import defaultdict
+r = defaultdict(dict)
+r['선생님']['학생']= 5
+print(r)
 
-alist = []
+l= {}
+l['teacher'] = {}
+l['teacher']['student'] = 5
+print(l)
 
-result = "".join(alist)
-print('plz stop')
-print('insert the hotfix')
-alist.append('4')
-alist.append('6')
-alist.append('love')
-print(alist)
-print(result)
-print('plz stop')
+g ={}
+g[('선생님','pos')] = 5
+g[('선생님','neg')] =1
 
-print('This is the new world')
+print(g)
+
+k = []
+k.append(['선생님','pos','3'])
+k.append(['선생님','neg','1'])
+print(k)

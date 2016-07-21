@@ -294,7 +294,7 @@ def draw_mst(T):
         node_size.append(ns)
 
     # node_size = [degrees[node] * 400 for node in nodes]
-
+    
     nx.draw(T,
             pos=nx.spring_layout(T, k=0.02),
             node_size=node_size,
@@ -311,6 +311,7 @@ def draw_mst(T):
     plt.show()
 
 
+
 def main():
     """
     한국 가요 가사에 토픽 모델링을 적용한 다음 토픽별 어휘 공기 네트워크를
@@ -322,7 +323,7 @@ def main():
         한국 가요 가사 형태소 분석 파일 이름
     """
     input_file_name = "HyunEco_Season3/report_infomation.txt"
-
+    
     docs = read_docs(input_file_name)
     corpus, dictionary = build_doc_word_matrix(docs)
     model = models.ldamodel.LdaModel(corpus, num_topics=NUM_TOPICS,
