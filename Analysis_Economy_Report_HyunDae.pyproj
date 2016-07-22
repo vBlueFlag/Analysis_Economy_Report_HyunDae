@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>26acc802-da7c-4294-bdb6-221ec511701c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lecture10\sent_anal_reviews_d2v.py</StartupFile>
+    <StartupFile>lecture10\word2vec_reviews.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

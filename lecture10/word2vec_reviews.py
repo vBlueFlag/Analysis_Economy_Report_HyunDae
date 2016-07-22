@@ -116,4 +116,4 @@ def main(ma_file_name):
 #    print("usage: {} review_ma_file".format(APP_NAME))
 #    sys.exit(1)
 
-main("ratings.ma")
+main("ratings.ma.txt")
